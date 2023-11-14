@@ -1,0 +1,57 @@
+<lab>
+    <computer id="09">
+        <manufacturer>Dell</manufacturer>
+        <yearPurchased>21</yearPurchased>
+        <processor>i7</processor>
+        <monitor id="09-1">
+            <manufacturer>Dell</manufacturer>
+            <resolution>1920x1080</resolution>
+        </monitor>
+        <monitor id="09-2">
+            <manufacturer>Dell</manufacturer>
+            <resolution>1920x1080</resolution>
+        </monitor>
+    </computer>
+
+    <computer id="10">
+        <manufacturer>Dell</manufacturer>
+        <yearPurchased>21</yearPurchased>
+        <processor>i7</processor>
+        <monitor id="10-1">
+            <manufacturer>Dell</manufacturer>
+            <resolution>1920x1080</resolution>
+        </monitor>
+        <monitor id="10-2">
+            <manufacturer>Dell</manufacturer>
+            <resolution>1920x1080</resolution>
+        </monitor>
+    </computer>
+
+    <computer id="11">
+        <manufacturer>Dell</manufacturer>
+        <yearPurchased>23</yearPurchased>
+        <processor>i9</processor>
+        <monitor id="11-1">
+            <manufacturer>Dell</manufacturer>
+            <resolution>1920x1080</resolution>
+        </monitor>
+        <monitor id="12-1"> <!-- someone must have swapped this monitor with computer twelve's-->
+            <manufacturer>Dell</manufacturer>
+            <resolution>1920x1080</resolution>
+        </monitor>
+    </computer>
+
+    <computer id="12">
+        <manufacturer>Dell</manufacturer>
+        <yearPurchased>21</yearPurchased>
+        <processor>i7</processor>
+        <monitor id="11-2">
+            <manufacturer>Dell</manufacturer>
+            <resolution>1920x1080</resolution>
+        </monitor>
+        <monitor id="12-2">
+            <manufacturer>Dell</manufacturer>
+            <resolution>1920x1080</resolution>
+        </monitor>
+    </computer>
+</lab>
