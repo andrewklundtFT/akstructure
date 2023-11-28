@@ -58,7 +58,13 @@ public class ComputerLab
     public static void printComputerList(ArrayList<Computer> computerList) {
         for (Computer computer : computerList) {
             System.out.println("computer id: " + computer.id);
+            System.out.println("\tcomputer manufacturer: " + computer.manufacturer);
             System.out.println("\tcomputer processor: " + computer.processor);
+            for (Monitor monitor : computer.monitors) {
+                System.out.println("\tmonitor id: " + monitor.id);
+                System.out.println("\t\tmonitor manufacturer: " + monitor.manufacturer);
+                System.out.println("\t\tmonitor resolution: " + monitor.resolution);
+            }
         }
     } 
 }
